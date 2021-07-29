@@ -20,4 +20,5 @@ app.post('/', (req, res) => {
   res.send('' + (firstNumber + secondNumber))
 })
 
-app.listen(80)
+// eslint-disable-next-line no-undef
+app.listen(proccess.env.PORT || 80)
