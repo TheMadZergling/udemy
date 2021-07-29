@@ -21,4 +21,4 @@ app.post('/', (req, res) => {
 })
 
 // eslint-disable-next-line no-undef
-app.listen(proccess.env.PORT || 80)
+app.listen(process.env.PORT || 80)
